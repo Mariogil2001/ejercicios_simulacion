@@ -24,11 +24,10 @@ Para actualizar la posición:
 
 $$
 \begin{align*}
-x = r * cos(w*t) \\
-y = r * sin(w*t)
+x &= r \times \cos(w \times t) \\
+y &= r \times \sin(w \times t)
 \end{align*}
 $$
-
 
 Se ha implementado de esta manera:
 ```java
