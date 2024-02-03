@@ -54,3 +54,4 @@ Para añadir aceleración en los tramos se ha implementado:
     p.add(PVector.mult(velBC, dt));
   }
 ```
+![MockUP](MontanaRusa.png)
