@@ -8,6 +8,7 @@ Además añadir aceleración en los tramos.
 
 ## Velocidad constante en todo el intervalo
 Formulas en las que me he basado para resolverlo:
+
 $$
 \begin{align*}
 v_{media} =\frac{ \vartriangle x} {\vartriangle t} \\
@@ -28,9 +29,11 @@ Siendo **p** la **Particula** que se desplaza por el circuito y **velAB** siendo
 Formulas en las que me he basado para añadirle la aceleración en los tramos:
 
 Para actualizar la velocidad:
+
 $$
 v = v_0 + a * \vartriangle t
 $$
+
 Para actualizar la posición se emplea la misma formula que con velocidad constante:
 
 $$
