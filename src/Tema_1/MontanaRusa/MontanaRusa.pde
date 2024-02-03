@@ -2,7 +2,7 @@
 float dt = 0.1; // Diferencial de tiempo, mas sensible y mas importante
 PVector a, b, c,  p, velAB, velBC;
 float accAB = -.1; // Aceleración en el tramo AB, da sensacion que le cuesta subir
-float accBC = 3; // Aceleración en el tramo BC, da sensacion de que va mas rapido
+float accBC = 2.5; // Aceleración en el tramo BC, da sensacion de que va mas rapido
 
 void setup(){
   size(800, 600); // Abrir una ventana
@@ -12,7 +12,7 @@ void setup(){
   p = new PVector(width/2 - 0.4*width, height/2); // Posicion inicial de la particula (punto A)
 
   velAB = PVector.sub(b,a).normalize().mult(10); // Saca la direccion
-  velBC = PVector.sub(c,b).normalize().mult(20);
+  velBC = PVector.sub(c,b).normalize().mult(10);
   //println(velAB);
   //println(a);
   //println(b);
