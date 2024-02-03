@@ -11,6 +11,11 @@ La estructura del repositorio se divide de la siguiente manera:
 |       └── MontanaRusa
 |               └── MontanaRusa.pde
 |               └── MontanaRusa.md
+|               └── MontanaRusa.png
+|       └── MovimentoCircular
+|               └── MovimentoCircular.pde
+|               └── MovimentoCircular.md
+|               └── MovimentoCircular.png
 ```
 ## Construido con 🛠️
 
