@@ -13,19 +13,18 @@ void setup() {
 void draw() {
   background(#264653);
   puntoA();
-  if (mousePressed) {
-    // 1. Crear una nueva bola en la posición inicial cuando se hace clic.
-    p = new PVector(a.x, a.y);
-    // 2. Calcular la dirección entre la posición de la bola inicial y la posición del mouse.
-    dir = PVector.sub(new PVector(mouseX, mouseY), p).normalize().mult(75);
-  }
   // 3. Mover la bola en esa dirección.
   p.add(PVector.mult(dir, dt)); // Mueve la partícula en la dirección calculada
   particula();
   puntoB();
   linea();
 }
-
+void mouseClicked(){
+    // 1. Crear una nueva bola en la posición inicial cuando se hace clic.
+    p = new PVector(a.x, a.y);
+    // 2. Calcular la dirección entre la posición de la bola inicial y la posición del mouse.
+    dir = PVector.sub(new PVector(mouseX, mouseY), p).normalize().mult(75);
+}
 void puntoA(){
   stroke(0);
   fill(#f4a261);
